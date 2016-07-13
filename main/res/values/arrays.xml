@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="page_102_login">
+        <item>{\"element\":\"TextView\",\"value\":\"Username:\",\"id\":\"usernameView\"}</item>
+        <item>{\"element\":\"EditText\",\"value\":\"\",\"id\":\"usernameInput\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\"Password:\",\"id\":\"passwordView\"}</item>
+        <item>
+            {\"element\":\"EditText\",\"value\":\"\",\"inputtype\":\"textPassword\",\"id\":\"passwordInput\"}
+        </item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void1View\"}</item>
+        <item>
+            {\"element\":\"Button\",\"value\":\"Submit\",\"id\":\"loginsubmitbutton\",\"clickaction\":\"loginSubmit\"}
+        </item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>
+            {\"element\":\"Button\",\"value\":\"Sign Up\",\"id\":\"signupbutton\",\"clickaction\":\"signUp\"}
+        </item>
+        <item>{\"element\":\"TextView\",\"value\":\"\",\"id\":\"loginErrorView\"}</item>
+    </array>
+    <array name="page_104_logout">
+        <item>{\"element\":\"TextView\",\"value\":\"Log out!\",\"id\":\"logoutView\"}</item>
+    </array>
+    <array name="page_100_registration">
+        <item>{\"element\":\"TextView\",\"value\":\"Username:\",\"id\":\"usernameView\"}</item>
+        <item>{\"element\":\"EditText\",\"value\":\"\",\"id\":\"usernameInput\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\"Password:\",\"id\":\"passwordView\"}</item>
+        <item>
+            {\"element\":\"EditText\",\"value\":\"\",\"inputtype\":\"textPassword\",\"id\":\"passwordInput\"}
+        </item>
+        <item>{\"element\":\"TextView\",\"value\":\"Confirm Password:\",\"id\":\"passwordView2\"}</item>
+        <item>
+            {\"element\":\"EditText\",\"value\":\"\",\"inputtype\":\"textPassword\",\"id\":\"passwordInput2\"}
+        </item>
+        <item>{\"element\":\"TextView\",\"value\":\"Email:\",\"id\":\"passwordView\"}</item>
+        <item>
+            {\"element\":\"EditText\",\"value\":\"\",\"id\":\"emailInput\"}
+        </item>
+        <item>{\"element\":\"TextView\",\"value\":\"Display name:\",\"id\":\"displayView\"}</item>
+        <item>
+            {\"element\":\"EditText\",\"value\":\"\",\"id\":\"displayInput\"}
+        </item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void1View\"}</item>
+        <item>
+            {\"element\":\"Button\",\"value\":\"Create Account\",\"id\":\"signupbutton\",\"clickaction\":\"registration\"}
+        </item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\"\",\"id\":\"loginErrorView\"}</item>
+    </array>
+    <array name="page_001_front">
+        <item>{\"element\":\"SearchView\",\"value\":\"Search Posts...\",\"id\":\"searchpublicposts\",\"clickaction\":\"searchPublicPost\"}</item>
+        <item>{\"element\":\"ScrollView\",\"value\":\"\",\"id\":\"postsScroll\"}</item>
+    </array>
+    <array name="page_000_welcome">
+        <item>{\"element\":\"TextView\",\"value\":\"Welcome!\",\"id\":\"welcomeView\"}</item>
+    </array>
+    <array name="page_009_noconnection">
+        <item>{\"element\":\"TextView\",\"value\":\"Network is not available\",\"id\":\"noconnectionView\"}</item>
+    </array>
+    <array name="page_003_aboutus">
+        <item>{\"element\":\"TextView\",\"value\":\"About Us\",\"id\":\"aboutusView\"}</item>
+    </array>
+    <array name="page_005_contactus">
+        <item>{\"element\":\"TextView\",\"value\":\"Contact Us\",\"id\":\"contactusView\"}</item>
+    </array>
+    <array name="page_130_helpcenter">
+        <item>{\"element\":\"TextView\",\"value\":\"Help Center\",\"id\":\"helpcenterView\"}</item>
+    </array>
+    <array name="page_006_privacy">
+        <item>{\"element\":\"TextView\",\"value\":\"Privacy and term of use\",\"id\":\"privacyView\"}</item>
+    </array>
+
+    <!--post price-->
+    <array name="page_320_postprice">
+        <item>{\"element\":\"TextView\",\"value\":\"Post Price\",\"id\":\"postpriceView\"}</item>
+        <item>{\"element\":\"ImageView\",\"value\":\"\",\"id\":\"postpriceView\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"New Post\",\"id\":\"postpriceView1\", \"clickaction\":\"newpost\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"New post from Template\",\"id\":\"postpriceView2\", \"clickaction\":\"posttemplate\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"Scheduled Post\",\"id\":\"postpriceView3\", \"clickaction\":\"postschedule\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"Published Post\",\"id\":\"postpriceView4\", \"clickaction\":\"postpublish\"}</item>
+    </array>
+    <array name="page_322_newpost">
+        <item>{\"element\":\"TextView\",\"value\":\"New Post\",\"id\":\"newpostView\"}</item>
+    </array>
+    <array name="page_324_posttemplate">
+        <item>{\"element\":\"TextView\",\"value\":\"New Post from Template\",\"id\":\"posttemplateView\"}</item>
+    </array>
+    <array name="page_328_postschedule">
+        <item>{\"element\":\"TextView\",\"value\":\"Scheduled Post\",\"id\":\"postscheduleView\"}</item>
+    </array>
+    <array name="page_330_postpublish">
+        <item>{\"element\":\"TextView\",\"value\":\"Published Post\",\"id\":\"postpublishView\"}</item>
+    </array>
+
+    <!--vendor profile-->
+    <array name="page_203_profilevendor">
+        <item>{\"element\":\"TextView\",\"value\":\"Profile\",\"id\":\"profilevendorView\"}</item>
+        <item>{\"element\":\"ImageView\",\"value\":\"\",\"id\":\"profilevendorView\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"Business name and address\",\"id\":\"profilevendorView1\", \"clickaction\":\"nameaddress\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"Phone and email\",\"id\":\"profilevendorView2\", \"clickaction\":\"phoneemail\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"Website and social media\",\"id\":\"profilevendorView3\", \"clickaction\":\"website\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"USDA Certified Organic Producer\",\"id\":\"profilevendorView4\", \"clickaction\":\"certified\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"List of farmers markets where I sell at\",\"id\":\"profilevendorView5\", \"clickaction\":\"farmermarket\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"List of products I sell\",\"id\":\"profilevendorView6\", \"clickaction\":\"productsell\"}</item>
+    </array>
+    <array name="page_205_nameaddress">
+        <item>{\"element\":\"TextView\",\"value\":\"Business name and address\",\"id\":\"nameaddressView\"}</item>
+    </array>
+    <array name="page_206_phoneemail">
+        <item>{\"element\":\"TextView\",\"value\":\"Phone and email\",\"id\":\"phoneemailView\"}</item>
+    </array>
+    <array name="page_207_website">
+        <item>{\"element\":\"TextView\",\"value\":\"Website and social media\",\"id\":\"websiteView\"}</item>
+    </array>
+    <array name="page_209_certified">
+        <item>{\"element\":\"TextView\",\"value\":\"USDA Certified Organic Producer\",\"id\":\"certifiedView\"}</item>
+    </array>
+    <array name="page_309_farmermarket">
+        <item>{\"element\":\"TextView\",\"value\":\"List of farmers markets where sell at\",\"id\":\"farmermarketView\"}</item>
+    </array>
+    <array name="page_305_productsell">
+        <item>{\"element\":\"TextView\",\"value\":\"List of products sell\",\"id\":\"productsellView\"}</item>
+    </array>
+
+    <!--social network-->
+    <array name="page_400_socialnetwork">
+        <item>{\"element\":\"TextView\",\"value\":\"Social Network\",\"id\":\"socialnetworkView\"}</item>
+        <item>{\"element\":\"ImageView\",\"value\":\"\",\"id\":\"socialnetworkView\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"Friendship\",\"id\":\"socialnetworkView1\", \"clickaction\":\"friendship\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"Requests\",\"id\":\"socialnetworkView2\", \"clickaction\":\"request\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"Messages\",\"id\":\"socialnetworkView3\", \"clickaction\":\"message\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"Notifications\",\"id\":\"socialnetworkView4\", \"clickaction\":\"notification\"}</item>
+    </array>
+    <array name="page_401_friendship">
+        <item>{\"element\":\"ScrollView\",\"value\":\"\",\"id\":\"friendshipScroll\"}</item>
+    </array>
+    <array name="page_412_request">
+        <item>{\"element\":\"TextView\",\"value\":\"Requests\",\"id\":\"requestView\"}</item>
+    </array>
+    <array name="page_402_message">
+        <item>{\"element\":\"TextView\",\"value\":\"Messages\",\"id\":\"messageView\"}</item>
+    </array>
+    <array name="page_404_notification">
+        <item>{\"element\":\"TextView\",\"value\":\"Notifications\",\"id\":\"notificationView\"}</item>
+    </array>
+
+    <!--account settings-->
+    <array name="page_110_accountsettings">
+        <item>{\"element\":\"TextView\",\"value\":\"Account and Settings\",\"id\":\"accountsettingsView\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"User account info\",\"id\":\"accountsettingsView1\", \"clickaction\":\"accountinfo\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"Upload logo\",\"id\":\"accountsettingsView2\", \"clickaction\":\"uploadlogo"\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"QR code\",\"id\":\"accountsettingsView3\", \"clickaction\":\"qrcode\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"Search preference\",\"id\":\"accountsettingsView4\", \"clickaction\":\"searchpreference\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"Social network settings\",\"id\":\"accountsettingsView5\", \"clickaction\":\"socialnetwork\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"Notification settings\",\"id\":\"accountsettingsView6\", \"clickaction\":\"setnotification\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\" \",\"id\":\"void2View\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"Delete account\",\"id\":\"accountsettingsView7\", \"clickaction\":\"deleteaccount\"}</item>
+
+    </array>
+    <array name="page_105_accountinfo">
+        <item>{\"element\":\"TextView\",\"value\":\"User account info\",\"id\":\"accountinfoView\"}</item>
+    </array>
+    <array name="page_106_uploadlogo">
+        <item>{\"element\":\"ImageView\",\"value\":\"\",\"id\":\"logoView\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"Upload logo\",\"id\":\"selectimagebutton\", \"clickaction\":\"selectImage\"}</item>
+    </array>
+    <array name="page_109_qrcode">
+        <item>{\"element\":\"TextView\",\"value\":\"QR code\",\"id\":\"qrcodeView\"}</item>
+    </array>
+    <array name="page_111_searchpreference">
+        <item>{\"element\":\"TextView\",\"value\":\"Search preference\",\"id\":\"searchpreferenceView\"}</item>
+    </array>
+    <array name="page_107_setnotification">
+        <item>{\"element\":\"TextView\",\"value\":\"Notification settings\",\"id\":\"setnotificationView\"}</item>
+    </array>
+    <array name="page_108_socialnetwork">
+        <item>{\"element\":\"TextView\",\"value\":\"Social network\",\"id\":\"socialnetworkView\"}</item>
+    </array>
+    <array name="page_112_deleteaccount">
+        <item>{\"element\":\"TextView\",\"value\":\"Delete account\",\"id\":\"deleteaccontView\"}</item>
+    </array>
+    <array name="page_101_signasvendor">
+        <item>{\"element\":\"TextView\",\"value\":\"Sign up as a vendor\",\"id\":\"signasvendorView\"}</item>
+    </array>
+
+
+    <array name="page_020_viewpost">
+        <item>{\"element\":\"TextView\",\"value\":\"viewpost\",\"id\":\"postView\"}</item>
+    </array>
+
+    <array name="page_199_scanqr">
+        <item>{\"element\":\"Button\",\"value\":\"Scan QR\",\"id\":\"scanqrbutton\", \"clickaction\":\"scanQR\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\"\",\"id\":\"scanView\"}</item>
+    </array>
+    <array name="page_407_profile">
+        <item>{\"element\":\"TextView\",\"value\":\"Name\",\"id\":\"nameView\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"Add Friend\",\"id\":\"addfriendbutton\", \"clickaction\":\"addFriend\"}</item>
+    </array>
+    <array name="page_777_test">
+        <item>{\"element\":\"EditText\",\"value\":\"Input something...?\",\"id\":\"testInput\"}</item>
+        <item>{\"element\":\"Spinner\",\"value\":\"\",\"id\":\"testSpinner\"}</item>
+        <item>{\"element\":\"CheckBox\",\"value\":\"This is a CheckBox\",\"id\":\"testCheckbox\"}</item>
+        <item>{\"element\":\"SearchView\",\"value\":\"This is an empty SearchView...\",\"id\":\"testSearch\",\"clickaction\":\"testSearch\"}</item>
+        <item>{\"element\":\"Button\",\"value\":\"Test Button\",\"id\":\"testButton\", \"clickaction\":\"TestBegin\"}</item>
+        <item>{\"element\":\"TextView\",\"value\":\"Do some test?\",\"id\":\"testView\"}</item>
+    </array>
+</resources>
